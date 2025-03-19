@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="start_screen hide">
+            <h1 class="heading">Quiz Quest</h1>
+            <div class="settings">
+                <label for="num_questions">Number of Questions</label>
+                <select name="" id="num0questions">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                </select>
+
+                <label for="category">Select Category</label>
+                <select name="" id="category">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JAVASCRIPT</option>
+                    <option value="php">PHP</option>
+                </select>
+
+                <label for="difficulty">Select Challenge</label>
+                <select name="" id="difficulty">
+                    <option value="">any challenge</option>
+                    <option value="easy">easy</option>
+                    <option value="moderate">moderate</option>
+                    <option value="hard">hard</option>
+                </select>
+
+                <label for="time">Select Duration</label>
+                <select name="" id="time">
+                    <option value="10">10 seconds</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                </select>
+            </div>
+            <button class="btn start">Start Quiz</button>
+        </div>
+    <div class="quiz">
+        <div class="timer">
+            <div class="progress">
+                <div class="progress_bar"></div>
+                <span class="progress_text"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
