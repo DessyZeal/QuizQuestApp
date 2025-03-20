@@ -135,5 +135,29 @@ select {
 .answer .checkbox {
     width: 20px;
     height: 20px;
-    
+    border-radius: 50%;
+    border: 2px solid #3f48687e;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    transition: all 0.3s;
+    /* opacity: 0; */
+}
+.answer .checkbox .icon {
+    opacity: 0;
+}
+.answer:hover .checkbox,
+.answer.selected .checkbox {
+    background-color: #219ebc;
+    border-color: #219ebc;
+}
+.answer.selected .checkbox .icon {
+    opacity: 1;
+}
+.answer.correct {
+    border-color: #0cef2a;
+}
+.answer.wrong {
+    border-color: #fc3939;
 }
