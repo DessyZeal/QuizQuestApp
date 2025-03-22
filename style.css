@@ -176,3 +176,16 @@ select {
     text-align: center;
     margin-bottom: 80px;
 }
+.end_screen .score_text {
+    color: #dddfeb;
+    font-size: 16px;
+    margin-bottom: 120px;
+}
+@media (max-width:468) {
+    .container {
+        min-height: 100vh;
+        max-width: 100%;
+        border-radius: 0;
+    }
+}
+/* ui is complete up next js */
