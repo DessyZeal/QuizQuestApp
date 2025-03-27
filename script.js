@@ -32,9 +32,16 @@ const startBtn = document.querySelector(".start"),
         .then((res) => res.json())
         .then((data) => {
             questions = data.results;
-            console.log(questions);
+            startScreen.classList.add("hide");
+            quiz.classList.add("hide");
+            currentquestion(questions[0]);
         });
-
     };
+
+    startBtn.addEventListener("click", startQuiz);
+
+    const showQuestion = (question) => {
+        const questionsText = document.querySelector(".question");
+    }
 
 
