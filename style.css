@@ -161,10 +161,6 @@ select {
 .answer.wrong {
     border-color: #fc3939;
 }
-.question_wrapper, 
-.answer_wrapper {
-    /* margin-bottom: 50px; */
-}
 .btn.next {
     /* show when answer is submitted */
     display: none;
