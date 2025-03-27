@@ -9,7 +9,7 @@
 <body>
 
     <div class="container">
-        <div class="start_screen hide">
+        <div class="start_screen">
             <h1 class="heading">Quiz Quest</h1>
             <div class="settings">
                 <label for="num_questions">Number of Questions</label>
@@ -47,8 +47,10 @@
                 </select>
             </div>
             <button class="btn start">Start Quiz</button>
+
+            <!-- <button class="btn restart">Restart Qest</button> -->
         </div>
-    <div class="quiz">
+    <div class="quiz hide">
         <div class="timer">
             <div class="progress">
                 <div class="progress_bar"></div>
@@ -94,8 +96,9 @@
                 <span class="final_score">0</span>
                 <span class="total_score">/10</span>
             </div>
+            <button class="btn restart">Restart Qest</button>
         </div>
-        <button class="btn restart">Restart Qest</button>
+        <!-- <button class="btn restart">Restart Qest</button> -->
     </div>
     </div>
     <script src="./script.js"></script>
