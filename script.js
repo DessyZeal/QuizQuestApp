@@ -36,12 +36,15 @@ const startBtn = document.querySelector(".start"),
             quiz.classList.add("hide");
             currentquestion(questions[0]);
         });
+
     };
 
     startBtn.addEventListener("click", startQuiz);
 
     const showQuestion = (question) => {
-        const questionsText = document.querySelector(".question");
+        const questionText = document.querySelector(".question"),
+        answersWrapper = document.quertSelector(".answer_wrapper"),
+        questionNumber = document.querySelector(".number");
     }
 
 
